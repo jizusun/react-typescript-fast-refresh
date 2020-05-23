@@ -16,10 +16,9 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +34,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.3.2",
+    "@rescripts/cli": "0.0.14",
+    "@rescripts/rescript-use-babel-config": "0.0.10",
+    "@rescripts/utilities": "0.0.7",
+    "babel-plugin-react-app": "0.0.0",
+    "babel-preset-react-app": "^9.1.2",
+    "react-refresh": "^0.8.2"
   }
 }
