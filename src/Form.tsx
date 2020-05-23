@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <input name="example" defaultValue="test" ref={register} />
+      <input name="example" defaultValue="test444" ref={register} />
       
       <input name="exampleRequired" ref={register({ required: true })} />
       {errors.exampleRequired && <span>This field is required</span>}
