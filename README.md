@@ -1,3 +1,8 @@
+## React Fast Refresh
+
+https://dev.to/searchableguy/fast-refresh-with-react-and-next-3g31
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
